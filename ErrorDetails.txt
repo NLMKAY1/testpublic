@@ -1,0 +1,70 @@
+Exception type: System.ServiceModel.FaultException`1[Microsoft.Xrm.Sdk.OrganizationServiceFault]
+Message: solution With Id = d092ad7d-13e8-ec11-bb3c-000d3a5c4e5e Does Not ExistDetail: 
+<OrganizationServiceFault xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/xrm/2011/Contracts">
+  <ActivityId>41d60125-fe2d-481c-815b-a456162a28a7</ActivityId>
+  <ErrorCode>-2147220969</ErrorCode>
+  <ErrorDetails xmlns:d2p1="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+    <KeyValuePairOfstringanyType>
+      <d2p1:key>ApiExceptionSourceKey</d2p1:key>
+      <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">Plugin/Microsoft.Crm.ObjectModel.SolutionService</d2p1:value>
+    </KeyValuePairOfstringanyType>
+    <KeyValuePairOfstringanyType>
+      <d2p1:key>ApiSourceActivityKey</d2p1:key>
+      <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string"></d2p1:value>
+    </KeyValuePairOfstringanyType>
+    <KeyValuePairOfstringanyType>
+      <d2p1:key>ApiExceptionOwnerKey</d2p1:key>
+      <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">OwnershipNotFoundInExceptionOwnerSettings</d2p1:value>
+    </KeyValuePairOfstringanyType>
+    <KeyValuePairOfstringanyType>
+      <d2p1:key>ApiOriginalExceptionKey</d2p1:key>
+      <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">Microsoft.Crm.BusinessEntities.CrmObjectNotFoundException: solution With Id = d092ad7d-13e8-ec11-bb3c-000d3a5c4e5e Does Not Exist ---&gt; Microsoft.Crm.BusinessEntities.CrmObjectNotFoundException: solution With Id = d092ad7d-13e8-ec11-bb3c-000d3a5c4e5e Does Not Exist
+   at Microsoft.Crm.BusinessEntities.BusinessProcessObject.Retrieve(IBusinessEntityMoniker moniker, IEntityExpression entityExpression, ExecutionContext context)
+   at Microsoft.Crm.BusinessEntities.BusinessProcessObject.Retrieve(BusinessEntityMoniker moniker, EntityExpression entityExpression, ExecutionContext context)
+   --- End of inner exception stack trace ---
+   at Microsoft.Crm.Extensibility.VersionedPluginProxyStepBase.Execute(PipelineExecutionContext context)
+   at Microsoft.Crm.Extensibility.PipelineInstrumentationHelper.Execute(Boolean instrumentationEnabled, String stopwatchName, ExecuteWithInstrumentation action, PipelineExecutionContext context)
+   at Microsoft.Crm.Extensibility.Pipeline.&lt;&gt;c__DisplayClass3_0.&lt;RunStep&gt;b__0()</d2p1:value>
+    </KeyValuePairOfstringanyType>
+    <KeyValuePairOfstringanyType>
+      <d2p1:key>ApiStepKey</d2p1:key>
+      <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">2a714970-3f12-11dd-9bde-0019b9312238</d2p1:value>
+    </KeyValuePairOfstringanyType>
+    <KeyValuePairOfstringanyType>
+      <d2p1:key>ApiDepthKey</d2p1:key>
+      <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">1</d2p1:value>
+    </KeyValuePairOfstringanyType>
+    <KeyValuePairOfstringanyType>
+      <d2p1:key>ApiActivityIdKey</d2p1:key>
+      <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">41d60125-fe2d-481c-815b-a456162a28a7</d2p1:value>
+    </KeyValuePairOfstringanyType>
+    <KeyValuePairOfstringanyType>
+      <d2p1:key>ApiPluginSolutionNameKey</d2p1:key>
+      <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">System</d2p1:value>
+    </KeyValuePairOfstringanyType>
+    <KeyValuePairOfstringanyType>
+      <d2p1:key>ApiStepSolutionNameKey</d2p1:key>
+      <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">System</d2p1:value>
+    </KeyValuePairOfstringanyType>
+    <KeyValuePairOfstringanyType>
+      <d2p1:key>ApiExceptionCategory</d2p1:key>
+      <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">ClientError</d2p1:value>
+    </KeyValuePairOfstringanyType>
+    <KeyValuePairOfstringanyType>
+      <d2p1:key>ApiExceptionMessageName</d2p1:key>
+      <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">ObjectDoesNotExist</d2p1:value>
+    </KeyValuePairOfstringanyType>
+    <KeyValuePairOfstringanyType>
+      <d2p1:key>ApiExceptionHttpStatusCode</d2p1:key>
+      <d2p1:value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">404</d2p1:value>
+    </KeyValuePairOfstringanyType>
+  </ErrorDetails>
+  <HelpLink>http://go.microsoft.com/fwlink/?LinkID=398563&amp;error=Microsoft.Crm.CrmException%3a80040217&amp;client=platform</HelpLink>
+  <Message>solution With Id = d092ad7d-13e8-ec11-bb3c-000d3a5c4e5e Does Not Exist</Message>
+  <Timestamp>2022-06-09T19:17:33.2539538Z</Timestamp>
+  <ExceptionRetriable>false</ExceptionRetriable>
+  <ExceptionSource i:nil="true" />
+  <InnerFault i:nil="true" />
+  <OriginalException i:nil="true" />
+  <TraceText i:nil="true" />
+</OrganizationServiceFault>
